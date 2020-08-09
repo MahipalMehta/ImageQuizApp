@@ -1,0 +1,36 @@
+<resources>
+    <string name="ques">प्रश्न</string>
+    <string name="app_name">BharatiScript\nWord-Quiz</string>
+    <string name="bharatiscript">भारतीस्क्रिप्ट</string>
+    <string name="startquiz1">प्रश्नोत्तरी-1</string>
+    <string name="startquiz2">प्रश्नोत्तरी-2</string>
+    <string name="quiz">प्रश्नोत्तरी</string>
+    <string name="home_text">
+डॉ श्रीनिवास चक्रवर्ती के नेतृत्व वाली मद्रास में भारतीय प्रौद्योगिकी संस्थान (IIT) की एक टीम द्वारा विकसित भारतीय भाषाओं के लिए एक वैकल्पिक स्क्रिप्ट है। स्क्रिप्ट में देवनागरी, बंगाली, गुरुमुखी, गुजराती, उड़िया, तेलुगु, कन्नड़, मलयालम और तमिल शामिल हैं। भारती अक्षर तीन ऊर्ध्वाधर परतों से बने होते हैं। अक्षर के आधार पर व्यंजन केंद्र में रखा गया है और सुधारक ऊपरी और निचली परतों पर हैं।</string>
+
+    <string name="title_activity_u_i">UI</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="navigation_drawer_open">नेव्हिगेशन ड्रॉवर उघडा</string>
+    <string name="navigation_drawer_close">नेव्हिगेशन ड्रॉवर बंद करा</string>
+
+    <string name="menu_home">मुख्यपृष्ठ</string>
+
+    <string name="menu_letters">अक्षरे</string>
+    <string name="menu_words">शब्दकोष</string>
+    <string name="menu_about">संपर्क</string>
+    <string name="developer_name"> Developed by - \n Mahipal Mehta</string>
+    <string name="instruction">• दिए गए भारतीस्क्रिप्ट(bhartiscript) शब्द के    लिए  हिंदी शब्द का सही विकल्प चुनें \n• हर प्रश्न के लिए 20 सेकंड का समय होगा
+
+</string>
+
+
+    <string name="d_line1">डेवलपर से संपर्क करने के लिए</string>
+    <string name="d_contact1">7276134221</string>
+    <string name="d_mail1">Mahipalmehta143@gmail.com</string>
+</resources>

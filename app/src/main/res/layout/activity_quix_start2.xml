@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="16dp"
+    android:backgroundTint="#D8FFB300"
+    tools:context=".QuixStartActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:id="@+id/quiztitle"
+        android:layout_below="@+id/instructions"
+        android:layout_marginTop="24dp"
+        android:text="@string/quiz"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="55dp" />
+
+    <TextView
+        android:id="@+id/text_view_highscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_start_quiz"
+        android:layout_marginTop="35dp"
+        android:text="उच्च स्कोर : 0"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button_start_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quiztitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="#000000"
+        android:elevation="8dp"
+        android:padding="10dp"
+        android:text="@string/startquiz2"
+        android:textColor="#FFB300"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suchna"
+        android:layout_marginTop="25dp"
+        android:gravity="left"
+        android:text="@string/instruction"
+        android:textAlignment="gravity"
+        android:textColor="#ED000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/suchna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="183dp"
+        android:gravity="center"
+        android:text="सुचना"
+        android:textAlignment="gravity"
+        android:textColor="#ED000000"
+        android:textSize="30dp" />
+
+</RelativeLayout>

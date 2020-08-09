@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center"
+                android:layout_centerInParent="true"
+                app:cardElevation="8dp"
+                android:padding="6dp"
+                android:layout_margin="15dp">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/intro_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                android:layout_margin="20dp"
+                android:text="@string/bharatiscript" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/intro_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/intro_title"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="15dp"
+        android:textColor="#DC000000"
+        android:layout_marginTop="50dp"
+        android:text="@string/home_text"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop= "380dp">
+
+                    <Button
+                        android:id="@+id/starQuiz1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#FFB300"
+                        android:padding="5dp"
+                        android:text="@string/startquiz1"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff" />
+
+                    <Button
+                        android:id="@+id/starQuiz2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentTop="true"
+
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="61dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#FFB300"
+                        android:padding="2dp"
+                        android:text="@string/startquiz2"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</LinearLayout>
