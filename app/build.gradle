@@ -14,10 +14,10 @@ android {
         }
 
     defaultConfig {
-        applicationId "com.Mahipal.bharatiWordQuiz"
+        applicationId "com.SundarImages.BhartiImageQuiz"
         minSdkVersion 22
         targetSdkVersion 29
-        versionCode 3
+        versionCode 1
         versionName "1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -33,7 +33,7 @@ android {
         variant ->
             variant.outputs.each {
                 output ->
-                    def name = "Mahipal_base_${variant.versionName}_padaayi.apk"
+                    def name = "Mahipal_ImageQuiz_${variant.versionName}_padaayi.apk"
                     output.outputFileName = name
             }
     }

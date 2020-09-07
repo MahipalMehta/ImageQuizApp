@@ -16,8 +16,9 @@
 
             android:layout_alignParentTop="true"
             android:layout_marginTop="0dp"
-            android:background="#FFB300"
+            android:background="#AA2434"
             android:padding="3dp"
+            android:textColor="#ffffff"
             android:text="Useful Websites\n(Note: Click on the blue links to visit the respective pages)\n"
             android:textAlignment="center"
             android:textSize="16dp" />

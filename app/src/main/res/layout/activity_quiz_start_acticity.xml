@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     android:padding="16dp"
-    android:backgroundTint="#D8FFB300"
+    android:backgroundTint="#AA2434"
     tools:context=".QuizStartActicity">
 
     <TextView
@@ -42,7 +42,7 @@ android:layout_below="@+id/button_start_quiz"
         android:elevation="8dp"
         android:padding="10dp"
         android:text="@string/startquiz1"
-        android:textColor="#FFB300"
+        android:textColor="#AA2434"
         android:textSize="20dp" />
 
     <TextView

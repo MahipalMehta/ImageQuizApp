@@ -61,26 +61,12 @@
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="2dp"
                         android:layout_marginBottom="20dp"
-                        android:background="#FFB300"
+                        android:background="#AA2434"
                         android:padding="5dp"
                         android:text="@string/startquiz1"
                         android:textAlignment="center"
                         android:textColor="#ffffff" />
 
-                    <Button
-                        android:id="@+id/starQuiz2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_alignParentTop="true"
-
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginTop="61dp"
-                        android:layout_marginBottom="20dp"
-                        android:background="#FFB300"
-                        android:padding="2dp"
-                        android:text="@string/startquiz2"
-                        android:textAlignment="center"
-                        android:textColor="#ffffff" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
